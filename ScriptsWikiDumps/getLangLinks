@@ -1,0 +1,137 @@
+
+cd enwikipedia
+wget https://dumps.wikimedia.org/enwiki/20160501/enwiki-20160501-langlinks.sql.gz
+gunzip enwiki-20160501-langlinks.sql.gz
+cd ..
+
+cd ruwikipedia
+wget https://dumps.wikimedia.org/ruwiki/20160501/ruwiki-20160501-langlinks.sql.gz
+gunzip ruwiki-20160501-langlinks.sql.gz
+cd ..
+
+cd dewikipedia
+wget https://dumps.wikimedia.org/dewiki/20160501/dewiki-20160501-langlinks.sql.gz
+gunzip dewiki-20160501-langlinks.sql.gz
+cd ..
+
+cd nlwikipedia
+wget https://dumps.wikimedia.org/nlwiki/20160501/nlwiki-20160501-langlinks.sql.gz
+gunzip nlwiki-20160501-langlinks.sql.gz
+cd ..
+
+cd itwikipedia
+wget https://dumps.wikimedia.org/itwiki/20160501/itwiki-20160501-langlinks.sql.gz
+gunzip itwiki-20160501-langlinks.sql.gz
+cd ..
+
+cd eswikipedia
+wget https://dumps.wikimedia.org/eswiki/20160501/eswiki-20160501-langlinks.sql.gz
+gunzip eswiki-20160501-langlinks.sql.gz
+cd ..
+
+cd plwikipedia
+wget https://dumps.wikimedia.org/plwiki/20160501/plwiki-20160501-langlinks.sql.gz
+gunzip plwiki-20160501-langlinks.sql.gz
+cd ..
+
+cd jawikipedia
+wget https://dumps.wikimedia.org/jawiki/20160501/jawiki-20160501-langlinks.sql.gz
+gunzip jawiki-20160501-langlinks.sql.gz
+cd ..
+
+cd ptwikipedia
+wget https://dumps.wikimedia.org/ptwiki/20160501/ptwiki-20160501-langlinks.sql.gz
+gunzip ptwiki-20160501-langlinks.sql.gz
+cd ..
+
+cd zhwikipedia
+wget https://dumps.wikimedia.org/zhwiki/20160501/zhwiki-20160501-langlinks.sql.gz
+gunzip zhwiki-20160501-langlinks.sql.gz
+cd ..
+
+cd ukwikipedia
+wget https://dumps.wikimedia.org/ukwiki/20160501/ukwiki-20160501-langlinks.sql.gz
+gunzip ukwiki-20160501-langlinks.sql.gz
+cd ..
+
+cd nowikipedia
+wget https://dumps.wikimedia.org/nowiki/20160501/nowiki-20160501-langlinks.sql.gz
+gunzip nowiki-20160501-langlinks.sql.gz
+cd ..
+
+cd arwikipedia
+wget https://dumps.wikimedia.org/arwiki/20160501/arwiki-20160501-langlinks.sql.gz
+gunzip arwiki-20160501-langlinks.sql.gz
+cd ..
+
+cd fiwikipedia
+wget https://dumps.wikimedia.org/fiwiki/20160501/fiwiki-20160501-langlinks.sql.gz
+gunzip fiwiki-20160501-langlinks.sql.gz
+cd ..
+
+cd huwikipedia
+wget https://dumps.wikimedia.org/huwiki/20160501/huwiki-20160501-langlinks.sql.gz
+gunzip huwiki-20160501-langlinks.sql.gz
+cd ..
+
+cd cswikipedia
+wget https://dumps.wikimedia.org/cswiki/20160501/cswiki-20160501-langlinks.sql.gz
+gunzip cswiki-20160501-langlinks.sql.gz
+cd ..
+
+cd kowikipedia
+wget https://dumps.wikimedia.org/kowiki/20160501/kowiki-20160501-langlinks.sql.gz
+gunzip kowiki-20160501-langlinks.sql.gz
+cd ..
+
+cd trwikipedia
+wget https://dumps.wikimedia.org/trwiki/20160501/trwiki-20160501-langlinks.sql.gz
+gunzip trwiki-20160501-langlinks.sql.gz
+cd ..
+
+cd bgwikipedia
+wget https://dumps.wikimedia.org/bgwiki/20160501/bgwiki-20160501-langlinks.sql.gz
+gunzip bgwiki-20160501-langlinks.sql.gz
+cd ..
+
+cd dawikipedia
+wget https://dumps.wikimedia.org/dawiki/20160501/dawiki-20160501-langlinks.sql.gz
+gunzip dawiki-20160501-langlinks.sql.gz
+cd ..
+
+cd hewikipedia
+wget https://dumps.wikimedia.org/hewiki/20160501/hewiki-20160501-langlinks.sql.gz
+gunzip hewiki-20160501-langlinks.sql.gz
+cd ..
+
+cd hrwikipedia
+wget https://dumps.wikimedia.org/hrwiki/20160501/hrwiki-20160501-langlinks.sql.gz
+gunzip hrwiki-20160501-langlinks.sql.gz
+cd ..
+
+cd slwikipedia
+wget https://dumps.wikimedia.org/slwiki/20160501/slrwiki-20160501-langlinks.sql.gz
+gunzip slwiki-20160501-langlinks.sql.gz
+cd ..
+
+cd etwikipedia
+wget https://dumps.wikimedia.org/etwiki/20160501/etwiki-20160501-langlinks.sql.gz
+gunzip etwiki-20160501-langlinks.sql.gz
+cd ..
+
+cd elwikipedia
+wget https://dumps.wikimedia.org/elwiki/20160501/elwiki-20160501-langlinks.sql.gz
+gunzip elwiki-20160501-langlinks.sql.gz
+cd ..
+
+cd hiwikipedia
+wget https://dumps.wikimedia.org/hiwiki/20160501/hiwiki-20160501-langlinks.sql.gz
+gunzip hiwiki-20160501-langlinks.sql.gz
+cd ..
+
+cd thwikipedia
+wget https://dumps.wikimedia.org/thwiki/20160501/thwiki-20160501-langlinks.sql.gz
+gunzip thwiki-20160501-langlinks.sql.gz
+cd ..
+
+

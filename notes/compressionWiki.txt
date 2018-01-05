@@ -1,0 +1,15 @@
+L'alphabet des urls est (au nombre de 68) :
+
+	%, *, -, ., /, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, :, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, _, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z,
+
+
+L'alphabet des noms d'articles est (au nombre de 67) :
+
+	%, *, -, ., 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, :, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, _, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z,
+
+	(sans le "/")
+
+	
+	Les charactères non latins sont de forme "%__" avec deux charactères entre {A-F}U{0-9}
+	Les charactères latins sont les alphanumériques
+	%, *, -, ., _, sont des caractères que l'on peut retrouver partout

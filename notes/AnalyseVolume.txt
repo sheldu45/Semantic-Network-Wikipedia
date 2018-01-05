@@ -1,0 +1,55 @@
+ZIPF
+
+______________________________________
+Sur le micro echantillon (12 entitées)
+
+>HashMap
+
+	l'instanciation de la hashmap occupe dans le gestionnaire des taches un volume de 99180K (en debbugage)
+	(differenece entre le poids avant et après instanciation). 
+	Après quelques minutes d'inactivité ce volume est de 728K
+	cette même hashmap pèse 96MB selon le memory analyser
+
+	Les données semblent correspondre.
+
+>Liens
+
+	+604 K
+
+
+>Conclusion
+
+	Grosso modo les données contiennent 12 clés et 16 valeurs = 35 entrées
+
+	96MB/19clés = 8 MB/clés
+	604K/16vals = 37.75 KB/valeurs
+
+
+___________________________________________________
+Sur l'echantillon (~4'084'681 entitées) ~56% total:
+
+>HashMap
+
+	l'instanciation de la hashmap occupe dans le gestionnaire des taches un volume de 1'953'736K(hors debbugage)
+	(differenece entre le poids avant et après instanciation). 
+	
+	cette même hashmap fait crasher le memory analyser
+
+	
+
+>Liens
+
+	+604 K
+
+
+>Conclusion
+
+	Grosso modo les données contiennent 4'084'681 clés et 16 valeurs = 35 entrées
+
+	1'953'736MB/4'084'681clés = 0.48 MB/clés
+
+
+_________________________
+Estimation sur le total :
+	
+	4'084'681 * 1.77 = 7229885 entrées *0.48MB = 3'470'344MB

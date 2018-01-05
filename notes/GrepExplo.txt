@@ -1,0 +1,43 @@
+Probleme des désambiguisation : toutes les langues n'ont pas les mêmes conventions ! Exemple regarder "Cinéma (homonymie)" -> "Cinéma" en anglais. Le template de desambiguisation est présent en anglais à la fin de la page mais pas en français qui a plusieurs termes ("h/Homonymie(s)", "taxons", "titres homonymiques", etc...)
+
+**FR**
+
+
+pages de désambiguisation en français :
+
+	egrep "homonymie\)</title>" frwiki-20160501-pages-articles-multistream.xml -n -A 15
+
+pages de redirection en français :
+
+	egrep "preserve\">#REDIRECTION" frwiki-20160501-pages-articles-multistream.xml -n -B 16
+
+pages dont l'infobox contient l'hyperonomie en français
+
+	egrep "{{Infobox " frwiki-20160501-pages-articles-multistream.xml -n -B 17
+
+?? pages d'homonymie en francais :
+
+	egrep " \(homonymie\)</title>" frwiki-20160501-pages-articles-multistream.xml -n -A 25
+
+lignes entre 750 et 751 :
+
+	sed -n '750,751p'
+
+
+**EN**
+
+
+pages de désambiguisation en anglais:
+
+	egrep "disambiguation\)</title>" enwiki-20160501-pages-articles-multistream.xml -n -A 15
+
+pages de redirection en anglais:
+
+	egrep "preserve\">#REDIRECT" enwiki-20160501-pages-articles-multistream.xml -n -B 16
+
+
+pages dont l'infobox contient l'hyperonomie en anglais
+
+	egrep "{{Infobox " enwiki-20160501-pages-articles-multistream.xml -n -B 17
+
+

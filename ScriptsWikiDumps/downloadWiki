@@ -1,0 +1,260 @@
+mkdir ruwiktionary
+mkdir ruwikipedia
+mkdir dewiktionary
+mkdir dewikipedia
+mkdir nlwiktionary
+mkdir nlwikipedia
+mkdir itwiktionary
+mkdir itwikipedia
+mkdir eswiktionary
+mkdir eswikipedia
+mkdir plwiktionary
+mkdir plwikipedia
+mkdir jawiktionary
+mkdir jawikipedia
+mkdir ptwiktionary
+mkdir ptwikipedia
+mkdir zhwiktionary
+mkdir zhwikipedia
+mkdir ukwiktionary
+mkdir ukwikipedia
+mkdir nowiktionary
+mkdir nowikipedia
+mkdir arwiktionary
+mkdir arwikipedia
+mkdir fiwiktionary
+mkdir fiwikipedia
+mkdir huwiktionary
+mkdir huwikipedia
+mkdir cswiktionary
+mkdir cswikipedia
+mkdir kowiktionary
+mkdir kowikipedia
+mkdir trwiktionary
+mkdir trwikipedia
+mkdir bgwiktionary
+mkdir bgwikipedia
+mkdir dawiktionary
+mkdir dawikipedia
+mkdir hewiktionary
+mkdir hewikipedia
+mkdir hrwiktionary
+mkdir hrwikipedia
+mkdir slwiktionary
+mkdir slwikipedia
+mkdir etwiktionary
+mkdir etwikipedia
+mkdir elwiktionary
+mkdir elwikipedia
+mkdir hiwiktionary
+mkdir hiwikipedia
+mkdir thwiktionary
+mkdir thwikipedia
+
+cd ruwiktionary
+wget https://dumps.wikimedia.org/ruwiktionary/20160501/ruwiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/ruwiktionary/20160501/ruwiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../ruwikipedia
+wget https://dumps.wikimedia.org/ruwiki/20160501/ruwiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/ruwiki/20160501/ruwiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../dewiktionary
+wget https://dumps.wikimedia.org/dewiktionary/20160501/dewiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/dewiktionary/20160501/dewiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../dewikipedia
+wget https://dumps.wikimedia.org/dewiki/20160501/dewiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/dewiki/20160501/dewiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../nlwiktionary
+wget https://dumps.wikimedia.org/nlwiktionary/20160501/nlwiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/nlwiktionary/20160501/nlwiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../nlwikipedia
+wget https://dumps.wikimedia.org/nlwiki/20160501/nlwiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/nlwiki/20160501/nlwiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../itwiktionary
+wget https://dumps.wikimedia.org/itwiktionary/20160501/itwiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/itwiktionary/20160501/itwiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../itwikipedia
+wget https://dumps.wikimedia.org/itwiki/20160501/itwiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/itwiki/20160501/itwiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../eswiktionary
+wget https://dumps.wikimedia.org/eswiktionary/20160501/eswiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/eswiktionary/20160501/eswiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../eswikipedia
+wget https://dumps.wikimedia.org/eswiki/20160501/eswiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/eswiki/20160501/eswiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../plwiktionary
+wget https://dumps.wikimedia.org/plwiktionary/20160501/plwiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/plwiktionary/20160501/plwiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../plwikipedia
+wget https://dumps.wikimedia.org/plwiki/20160501/plwiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/plwiki/20160501/plwiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../jawiktionary
+wget https://dumps.wikimedia.org/jawiktionary/20160501/jawiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/jawiktionary/20160501/jawiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../jawikipedia
+wget https://dumps.wikimedia.org/jawiki/20160501/jawiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/jawiki/20160501/jawiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../ptwiktionary
+wget https://dumps.wikimedia.org/ptwiktionary/20160501/ptwiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/ptwiktionary/20160501/ptwiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../ptwikipedia
+wget https://dumps.wikimedia.org/ptwiki/20160501/ptwiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/ptwiki/20160501/ptwiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../zhwiktionary
+wget https://dumps.wikimedia.org/zhwiktionary/20160501/zhwiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/zhwiktionary/20160501/zhwiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../zhwikipedia
+wget https://dumps.wikimedia.org/zhwiki/20160501/zhwiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/zhwiki/20160501/zhwiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../ukwiktionary
+wget https://dumps.wikimedia.org/ukwiktionary/20160501/ukwiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/ukwiktionary/20160501/ukwiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../ukwikipedia
+wget https://dumps.wikimedia.org/ukwiki/20160501/ukwiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/ukwiki/20160501/ukwiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../nowiktionary
+wget https://dumps.wikimedia.org/nowiktionary/20160501/nowiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/nowiktionary/20160501/nowiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../nowikipedia
+wget https://dumps.wikimedia.org/nowiki/20160501/nowiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/nowiki/20160501/nowiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../arwiktionary
+wget https://dumps.wikimedia.org/arwiktionary/20160501/arwiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/arwiktionary/20160501/arwiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../arwikipedia
+wget https://dumps.wikimedia.org/arwiki/20160501/arwiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/arwiki/20160501/arwiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../fiwiktionary
+wget https://dumps.wikimedia.org/fiwiktionary/20160501/fiwiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/fiwiktionary/20160501/fiwiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../fiwikipedia
+wget https://dumps.wikimedia.org/fiwiki/20160501/fiwiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/fiwiki/20160501/fiwiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../huwiktionary
+wget https://dumps.wikimedia.org/huwiktionary/20160501/huwiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/huwiktionary/20160501/huwiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../huwikipedia
+wget https://dumps.wikimedia.org/huwiki/20160501/huwiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/huwiki/20160501/huwiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../cswiktionary
+wget https://dumps.wikimedia.org/cswiktionary/20160501/cswiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/cswiktionary/20160501/cswiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../cswikipedia
+wget https://dumps.wikimedia.org/cswiki/20160501/cswiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/cswiki/20160501/cswiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../kowiktionary
+wget https://dumps.wikimedia.org/kowiktionary/20160501/kowiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/kowiktionary/20160501/kowiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../kowikipedia
+wget https://dumps.wikimedia.org/kowiki/20160501/kowiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/kowiki/20160501/kowiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../trwiktionary
+wget https://dumps.wikimedia.org/trwiktionary/20160501/trwiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/trwiktionary/20160501/trwiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../trwikipedia
+wget https://dumps.wikimedia.org/trwiki/20160501/trwiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/trwiki/20160501/trwiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../bgwiktionary
+wget https://dumps.wikimedia.org/bgwiktionary/20160501/bgwiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/bgwiktionary/20160501/bgwiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../bgwikipedia
+wget https://dumps.wikimedia.org/bgwiki/20160501/bgwiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/bgwiki/20160501/bgwiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../dawiktionary
+wget https://dumps.wikimedia.org/dawiktionary/20160501/dawiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/dawiktionary/20160501/dawiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../dawikipedia
+wget https://dumps.wikimedia.org/dawiki/20160501/dawiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/dawiki/20160501/dawiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../hewiktionary
+wget https://dumps.wikimedia.org/hewiktionary/20160501/hewiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/hewiktionary/20160501/hewiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../hewikipedia
+wget https://dumps.wikimedia.org/hewiki/20160501/hewiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/hewiki/20160501/hewiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../hrwiktionary
+wget https://dumps.wikimedia.org/hrwiktionary/20160501/hrwiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/hrwiktionary/20160501/hrwiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../hrwikipedia
+wget https://dumps.wikimedia.org/hrwiki/20160501/hrwiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/hrwiki/20160501/hrwiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../slwiktionary
+wget https://dumps.wikimedia.org/slwiktionary/20160501/slwiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/slwiktionary/20160501/slwiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../slwikipedia
+wget https://dumps.wikimedia.org/slwiki/20160501/slwiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/slwiki/20160501/slwiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../etwiktionary
+wget https://dumps.wikimedia.org/etwiktionary/20160501/etwiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/etwiktionary/20160501/etwiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../etwikipedia
+wget https://dumps.wikimedia.org/etwiki/20160501/etwiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/etwiki/20160501/etwiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../elwiktionary
+wget https://dumps.wikimedia.org/elwiktionary/20160501/elwiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/elwiktionary/20160501/elwiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../elwikipedia
+wget https://dumps.wikimedia.org/elwiki/20160501/elwiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/elwiki/20160501/elwiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../hiwiktionary
+wget https://dumps.wikimedia.org/hiwiktionary/20160501/hiwiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/hiwiktionary/20160501/hiwiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../hiwikipedia
+wget https://dumps.wikimedia.org/hiwiki/20160501/hiwiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/hiwiki/20160501/hiwiki-20160501-pages-articles-multistream.xml.bz2
+
+cd ../thwiktionary
+wget https://dumps.wikimedia.org/thwiktionary/20160501/thwiktionary-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/thwiktionary/20160501/thwiktionary-20160501-pages-articles-multistream.xml.bz2
+cd ../thwikipedia
+wget https://dumps.wikimedia.org/thwiki/20160501/thwiki-20160501-pages-articles-multistream-index.txt.bz2
+wget https://dumps.wikimedia.org/thwiki/20160501/thwiki-20160501-pages-articles-multistream.xml.bz2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

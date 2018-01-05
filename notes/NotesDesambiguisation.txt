@@ -1,0 +1,6 @@
+Ce n'est pas parce que le titre a des parentheses que la désambiguisation concernée existe:
+	exemple : Douroula (département)
+
+Ce n'est pas parce qu'un article contient "(Homonymie)" dans le titre que ses traductions contiennent forcement dans le titre la traduction equivalente
+	exemple : Web_(homonymie)    point en portugais vers une page de désambiguisation qui n'est pas indiqué dans son titre
+

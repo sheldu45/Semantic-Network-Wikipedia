@@ -1,0 +1,85 @@
+//IMPORT BASH PANTAGRUEL
+
+bin/neo4j-import --into="/data/shervin/neo4j/neo4j-community-3.2.3/data/databases/wikipediagraph.db" --id-type="INTEGER" --delimiter=" " --nodes:Node="/data/shervin/neo4j/neo4j-community-3.2.3/import/Nodes.csv" --nodes:Lexicon="/data/shervin/neo4j/neo4j-community-3.2.3/import/Lexicon.csv" --relationships:RELATED_TO="/data/shervin/neo4j/neo4j-community-3.2.3/import/Rel.csv" --relationships:REDIRECTS_TO="/data/shervin/neo4j/neo4j-community-3.2.3/import/Redirect.csv"
+
+//IMPORT BASH LOCAL
+
+bin/Neo4jImport.bat --into="C:\Users\bnf_shl\Desktop\neo4j-community-2.3.11\data\wikipediagraph.db" --id-type="INTEGER" --delimiter=" " --nodes:Node="C:\Users\bnf_shl\Desktop\neo4j-community-2.3.11\import\Nodes.csv" --nodes:Lexicon="C:\Users\bnf_shl\Desktop\neo4j-community-2.3.11\import\Lexicon.csv" --relationships:RELATED_TO="C:\Users\bnf_shl\Desktop\neo4j-community-2.3.11\import\Rel.csv" --relationships:REDIRECTS_TO="C:\Users\bnf_shl\Desktop\neo4j-community-2.3.11\import\Redirect.csv"
+
+
+
+
+
+
+
+
+
+
+USING PERIODIC COMMIT 500
+LOAD CSV WITH HEADERS FROM "file:///C:/Users/bnf_shl/Desktop/neo4j-community-2.3.11/data/import/Nodes.csv" AS line FIELDTERMINATOR ' '
+CREATE (:Article { id: toInt(line.id), title: line.title, weight: toInt(line.weight)})
+
+//Relations
+	//1
+CREATE CONSTRAINT ON (article:Article)ASSERT article.id IS UNIQUE
+	//2
+USING PERIODIC COMMIT 500
+LOAD CSV WITH HEADERS FROM "file:///C:/Users/bnf_shl/Desktop/neo4j-community-2.3.11/data/import/Rel.csv" AS csvLine FIELDTERMINATOR ' '
+MATCH (artLeft:Article { id: toInt(csvLine.entityIDLeft)}),(artRight:Article { id: toInt(csvLine.entityIDRight)})
+CREATE (artLeft)-[:SIMPLE_LINK {lang: csvLine.lang, weight: csvLine.weight}]->(artRight)
+
+//reccuperer toutes les relations
+MATCH (:Article)-[r]-()
+RETURN r
+
+
+//supprimer par portions :
+
+MATCH (n)
+WITH n LIMIT 500
+DETACH DELETE n
+RETURN count(n) as deletedNodesCount
+
+
+//compter 
+
+MATCH (n) RETURN count(*)
+
+
+//Chemin entre Espion et KGB de taille 1 à 4 dont la moyenne des pondérations des arêtes est minimisée
+
+
+MATCH  (redirect:Lexicon {title:"Espion"})-[:REDIRECTS_TO]->(start:Node)
+WITH start 
+ORDER BY start.weight DESC LIMIT 1
+
+MATCH  (redirect:Lexicon {title:"KGB"})-[:REDIRECTS_TO]->(end:Node)
+WITH start, end
+ORDER BY end.weight DESC LIMIT 1
+
+MATCH  p=(start)-[:RELATED_TO*1..4]->(end)
+WITH  p, end
+
+RETURN  p AS shortestPath, 
+       reduce(count=toFloat(0), r in relationships(p) | count+(toFloat(r.length)))/length(p) AS MeanWeight,
+       end.title
+       ORDER BY MeanWeight DESC
+       LIMIT 1
+
+//Chemin entre espion et tous les noeuds a 2 de lui ordonné par le plus court chemin
+MATCH  (redirect:Lexicon {title:"Espion"})-[:REDIRECTS_TO]->(start:Node)
+WITH start 
+ORDER BY start.weight DESC LIMIT 1
+
+MATCH  (start)-[:RELATED_TO*2]->(end:Node)
+WITH start , end
+LIMIT 1
+
+MATCH  p=(start)-[:RELATED_TO]->(end)
+WITH  p, end
+
+RETURN  p AS shortestPath, 
+       reduce(count=toFloat(0), r in relationships(p) | count+(toFloat(r.length)))/length(p) AS MeanWeight,
+       end.title
+       ORDER BY MeanWeight DESC
+       LIMIT 1

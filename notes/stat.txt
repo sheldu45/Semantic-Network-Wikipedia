@@ -1,0 +1,172 @@
+number of entities : 1.4000466E7
+average size of entity title : 8.318874243185906 bytes
+number of links : 2.838385E7
+average number of links : 2.0273503753375066
+average size of links : 28.897825030783352 bytes
+number of links in ar : 633168.0
+number of links in bg : 269873.0
+number of links in cs : 472204.0
+number of links in da : 277505.0
+number of links in de : 2229063.0
+number of links in el : 157467.0
+number of links in en : 6584332.0
+number of links in es : 1515346.0
+number of links in et : 166277.0
+number of links in fi : 465624.0
+number of links in fr : 2100386.0
+number of links in he : 232763.0
+number of links in hi : 124122.0
+number of links in hr : 169947.0
+number of links in hu : 438311.0
+number of links in it : 1573508.0
+number of links in ja : 1209015.0
+number of links in ko : 533141.0
+number of links in nl : 1981367.0
+number of links in no : 544299.0
+number of links in pl : 1316248.0
+number of links in pt : 1134889.0
+number of links in ru : 1652829.0
+number of links in sl : 200060.0
+number of links in th : 147875.0
+number of links in tr : 401084.0
+number of links in uk : 755253.0
+number of links in zh : 1097894.0
+average number of links per language : 1013708.9285714285
+number of languages : 28
+average number of chars compressed : 0.0
+number of negative cases : 0.0
+temps calcul : 512.518 secondes
+
+
+
+number of special characters : 127
+
+D0	11942531	a
+D1	4442592		b
+B8	2436748		c
+C3	2020489		d
+B0	1890964		e
+E3	1771043		f
+D8	1727836		g
+83	1691067		h
+BE	1595295		i
+D9	1593756		j
+E0	1590244		k
+82	1589323		l
+B5	1415044		m
+80	1405215		n
+BD	1294775		o
+29	1255534		p
+28	1253230		q
+81	1219516		r
+D7	1119683		s
+E5	1078352		t
+B3	946104		u
+BB	937110		v
+BA	907780		w
+A4	894238		x
+B9	819183		y
+A9	790352		z
+BC	773136		#
+B1	769010		G
+B2	758689		H
+A7	754041		I
+CE	724093		J
+84	711574		K
+A1	695577		L
+B4	686380		M
+E6	649248		N
+AD	572063		O
+8A	557451		P
+88	557399		Q
+A8	528209		R
+8F	505098		S
+8C	498775		T
+85	490761		U
+E7	481228		V
+EC	459701		W
+BF	456612		X
+9C	448642		Y
+86	443417		Z
+96	442343		à
+A5	433915		â
+EB	423701		ä
+99	420513		ã
+B7	412472		é
+9A	412050		è
+95	397494		ê
+87	392537		ë
+94	391959		ì
+AA	384261		î
+C5	382482		ï
+E9	375631		ò
+8B	374645		ô
+E8	370454		ö
+2C	370241		ù
+AF	351005		û
+A3	346434		ü
+A0	342682		À
+9F	340893		Â
+90	335860		Ä
+98	326103		È
+B6	322538		Ê
+CF	318281		Ë
+91	311482		Ì
+9B	294202		Î
+93	288479		Ï
+9D	282753		Ò
+89	279645		Ô
+AC	279065		Ö
+AB	265746		Ù
+8D	265573		Û
+E4	261198		Ü
+C4	255512		&
+97	252485		~
+9E	249499		"
+A2	244710		'
+A6	216116		{
+AE	213628		(
+27	196266		[
+92	194277		-
+8E	177910		|
+ED	162994		`
+EA	108919		¨
+E2	95390		^
+C2	51196		!
+21	21332		?
+26	15583		)
+C8	8636		]
+EF	8596		°
+22	7023		=
+3F	5210		}
+E1	4996		+
+D2	4759		ç
+2B	3086		$
+C9	1788		£
+DB	1770		¤
+C6	1365		µ
+CA	840		*
+7E	659		,
+DA	613		.
+24	497		;
+3B	448		:
+CC	413		§
+40	309		@
+25	288		/
+C7	258		\
+3D	195		<
+D3	191		>
+60	162		ñ
+F0	82		Ñ
+5E	47		:
+5C	27		_
+D4	26
+D5	18
+EE	15
+DC	7
+CD	6
+DD	6
+D6	5
+CB	4
+size of alphabet : 16
+E, 5, A, 8, 7, 9, C, 3, 1, B, D, 0, 2, F, 6, 4, 

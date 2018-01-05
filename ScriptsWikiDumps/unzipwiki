@@ -1,0 +1,26 @@
+bunzip2 dewikipedia/dewiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 nlwikipedia/nlwiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 itwikipedia/itwiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 eswikipedia/eswiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 plwikipedia/plwiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 jawikipedia/jawiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 ptwikipedia/ptwiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 zhwikipedia/zhwiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 ukwikipedia/ukwiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 nowikipedia/nowiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 arwikipedia/arwiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 fiwikipedia/fiwiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 huwikipedia/huwiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 cswikipedia/cswiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 kowikipedia/kowiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 trwikipedia/trwiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 bgwikipedia/bgwiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 dawikipedia/dawiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 hewikipedia/hewiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 hrwikipedia/hrwiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 slwikipedia/slwiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 etwikipedia/etwiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 elwikipedia/elwiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 hiwikipedia/hiwiki-20160501-pages-articles-multistream.xml.bz2
+bunzip2 thwikipedia/thwiki-20160501-pages-articles-multistream.xml.bz2
+
